@@ -42,7 +42,11 @@ Find the file `index.js` and complete the tasks until your tests are passing.
 Edit the `ReadMe` file with your answers.
 
 1. In your own words, define closure (1-2 sentences).
+
+
 2. Study the following code, then answer the questions below.
+
+
 
 ```js
 function personalDice(name){
@@ -63,8 +67,11 @@ dansRoll();
 ```
 
 a. Where is closure used in this code? How can you tell?
+    Closure is used for the newRoll const. Because it is identifying a const that can only be used within the function. 
 b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change?
+    The two are the same except for the number that gets rooled. 
 c. What is the lexical scope of `newRoll`? 
+    The lexical scope of newRoll is the function personalDice because newRoll can access things outside of itself.
 
 ### Task 3 - Stretch Goals
 
